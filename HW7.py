@@ -5,6 +5,7 @@
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да    
 #     **Вывод:** Парам пам-пам  
 
+# Вариант 1:
 # def find_vowles(parts, vowels_list):
 #     list = []
 #     for word in parts:
@@ -23,6 +24,7 @@
 # else:
 #     print('Пам парам')
 
+# Вариант 2:
 # def word(vinny_song):
 #     str = vinny_song.lower().split()
 #     f = lambda x: sum(1 for i in x if i in 'аоуыэеёиюя')
@@ -49,11 +51,11 @@
 # 5 10 15 20 25 30
 # 6 12 18 24 30 36
 
-def print_operation_table(operation, num_rows = 6, num_columns = 6):
-    for row in range(1, num_rows + 1):
-        for column in range(1, num_columns + 1):
-            result = operation(row, column)
-            print (result, end=' ')
-        print()
+# def print_operation_table(operation, num_rows = 6, num_columns = 6):
+#     for row in range(1, num_rows + 1):
+#         for column in range(1, num_columns + 1):
+#             result = operation(row, column)
+#             print (result, end=' ')
+#         print()
 
-print_operation_table(lambda x, y: x * y)
+# print_operation_table(lambda x, y: x * y)
